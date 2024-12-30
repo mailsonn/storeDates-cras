@@ -75,6 +75,38 @@ h2{
     margin: 0px 126px 32px 126px ;
 }
 
-body {
-
+.button3{
+    height: 64px;
+    width: 141px;
+    background-color: #0C7C59;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    margin: 1rem 126px 32px 126px ;
 }
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.select-action{
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+ }
+
+
