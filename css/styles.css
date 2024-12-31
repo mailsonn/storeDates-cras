@@ -17,7 +17,8 @@ body{
 .topo{
     height: 132px;
     width: 252px;
-    margin: 156px 70px 32px 70px;
+    margin: 0px 70px 32px 70px;
+    /*margin: 156px 70px 32px 70px;*/
 
 }
 
@@ -109,4 +110,29 @@ input{
     border-left: none;
  }
 
+ /*pagina de info*/
 
+#info-month{
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #2B303A;
+}
+
+.all-date{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.date-month{
+    height: auto;
+    width: auto;
+    max-width: 98%;
+    border: solid 2px rgb(117, 113, 112);
+}
+
+.numberUser{
+    color: red;
+}
